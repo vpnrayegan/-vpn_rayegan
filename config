@@ -66,6 +66,35 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "Q7Xpph60xNBGQlYlPp4czc"
+    },
+    {
+      "type": "urltest",
+      "tag": "Best Latency",
+      "outbounds": [
+        "proxy-1",
+        "proxy-2",
+        "proxy-3",
+        "proxy-4",
+        "proxy-5",
+        "proxy-6",
+        "proxy-7",
+        "proxy-8"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "selector",
+      "tag": "Internet",
+      "outbounds": [
+        "proxy-1",
+        "proxy-2",
+        "proxy-3",
+        "proxy-4",
+        "proxy-5",
+        "proxy-6",
+        "proxy-7",
+        "proxy-8"
+      ]
     }
   ]
 }
