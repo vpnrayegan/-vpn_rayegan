@@ -360,12 +360,7 @@
             "server_port": 550,
             "uuid": "466f34ef-07e6-4ad6-a970-0b580b6fa6ea",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "tcp",
-                "path": "",
-                "headers": null
-            }
+            "alter_id": 0
         },
         {
             "type": "hysteria2",
