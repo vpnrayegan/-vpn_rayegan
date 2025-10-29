@@ -53,14 +53,32 @@
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
+                "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "t.me/entryNET",
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "2.\ud83d\udd25FREE HOMES VPN\ud83d\udd25hysteria2://freehomesvpnchannel3@channel2.saghetalaie.homes:46914?insecure=1&obfs=salamander&obfs-password=&O#28YB5qK!5t#U&sni=www.google.com#1.\ud83d\udd25FREE HOMES VPN\ud83d\udd25",
                 "0.\ud83d\udd25FREE HOMES VPN\ud83d\udd25",
                 ">>@free4allVPN::PY",
+                ">>@free4allVPN::KZ",
+                ">>@shadowproxy66::PA",
+                ">>@shadowproxy66::ZA",
+                ">>@shadowproxy66::XX (3)",
+                ">>@configV2rayNG::ES",
                 ">>@configV2rayNG::XX (7)",
+                ">>@free4allVPN::IT",
+                ">>@free4allVPN::PE",
+                ">>@free4allVPN::KZ (1)",
                 ">>@ShadowsocksM::XX (17)",
+                ">>@free4allVPN::CL",
                 ">>@DailyV2RY::XX (51)",
+                ">>@v2nodes::AU",
+                ">>@free4allVPN::AU",
+                ">>@free4allVPN::AE",
+                ">>@OutlineVpnOfficial::GB",
+                ">>@OutlineVpnOfficial::PR",
+                ">>@free4allVPN::CY",
+                ">>@OutlineVpnOfficial::GB (1)",
+                ">>@OutlineVpnOfficial::JP",
                 ">>@shadowproxy66::XX (5)",
                 ">>@configV2rayNG::XX (33)",
                 ">>@oneclickvpnkeys::NL (3)"
@@ -73,14 +91,32 @@
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
+                "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "t.me/entryNET",
                 "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
                 "2.\ud83d\udd25FREE HOMES VPN\ud83d\udd25hysteria2://freehomesvpnchannel3@channel2.saghetalaie.homes:46914?insecure=1&obfs=salamander&obfs-password=&O#28YB5qK!5t#U&sni=www.google.com#1.\ud83d\udd25FREE HOMES VPN\ud83d\udd25",
                 "0.\ud83d\udd25FREE HOMES VPN\ud83d\udd25",
                 ">>@free4allVPN::PY",
+                ">>@free4allVPN::KZ",
+                ">>@shadowproxy66::PA",
+                ">>@shadowproxy66::ZA",
+                ">>@shadowproxy66::XX (3)",
+                ">>@configV2rayNG::ES",
                 ">>@configV2rayNG::XX (7)",
+                ">>@free4allVPN::IT",
+                ">>@free4allVPN::PE",
+                ">>@free4allVPN::KZ (1)",
                 ">>@ShadowsocksM::XX (17)",
+                ">>@free4allVPN::CL",
                 ">>@DailyV2RY::XX (51)",
+                ">>@v2nodes::AU",
+                ">>@free4allVPN::AU",
+                ">>@free4allVPN::AE",
+                ">>@OutlineVpnOfficial::GB",
+                ">>@OutlineVpnOfficial::PR",
+                ">>@free4allVPN::CY",
+                ">>@OutlineVpnOfficial::GB (1)",
+                ">>@OutlineVpnOfficial::JP",
                 ">>@shadowproxy66::XX (5)",
                 ">>@configV2rayNG::XX (33)",
                 ">>@oneclickvpnkeys::NL (3)"
@@ -119,6 +155,70 @@
         },
         {
             "type": "shadowsocks",
+            "tag": ">>@OutlineVpnOfficial::JP",
+            "server": "103.106.228.247",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@OutlineVpnOfficial::GB (1)",
+            "server": "62.100.205.177",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::CY",
+            "server": "91.148.135.31",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@OutlineVpnOfficial::PR",
+            "server": "185.47.255.213",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@OutlineVpnOfficial::GB",
+            "server": "62.100.205.100",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::AE",
+            "server": "147.78.0.182",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::AU",
+            "server": "103.75.119.38",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@v2nodes::AU",
+            "server": "3.107.178.116",
+            "server_port": 80,
+            "method": "aes-256-gcm",
+            "password": "dada0801"
+        },
+        {
+            "type": "shadowsocks",
             "tag": ">>@DailyV2RY::XX (51)",
             "server": "45.87.175.168",
             "server_port": 8080,
@@ -127,11 +227,43 @@
         },
         {
             "type": "shadowsocks",
+            "tag": ">>@free4allVPN::CL",
+            "server": "154.205.153.107",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
             "tag": ">>@ShadowsocksM::XX (17)",
             "server": "45.87.175.197",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::KZ (1)",
+            "server": "45.159.250.190",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::PE",
+            "server": "138.186.143.32",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::IT",
+            "server": "176.126.83.158",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "type": "hysteria2",
@@ -143,6 +275,46 @@
                 "enabled": true,
                 "insecure": true
             }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@configV2rayNG::ES",
+            "server": "37.143.130.203",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@shadowproxy66::XX (3)",
+            "server": "197.140.29.76",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@shadowproxy66::ZA",
+            "server": "156.38.168.58",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@shadowproxy66::PA",
+            "server": "138.186.142.80",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": ">>@free4allVPN::KZ",
+            "server": "109.61.39.28",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "type": "shadowsocks",
@@ -227,6 +399,14 @@
                 "enabled": true,
                 "insecure": true
             }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "@CHshadow_Vpn <= \u06a9\u0627\u0646\u0641\u06cc\u06af \u0631\u0627\u06cc\u06af\u0627\u0646",
+            "server": "38.54.4.65",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "type": "direct",
