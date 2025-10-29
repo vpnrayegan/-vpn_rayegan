@@ -1,0 +1,140 @@
+{
+    "log": {
+        "disabled": true,
+        "level": "panic"
+    },
+    "dns": {
+        "servers": [
+            {
+                "tag": "Internet-dns",
+                "address": "1.1.1.2",
+                "strategy": "prefer_ipv4",
+                "detour": "Internet"
+            },
+            {
+                "tag": "direct-dns",
+                "address": "223.5.5.5",
+                "strategy": "prefer_ipv4",
+                "detour": "direct"
+            },
+            {
+                "tag": "fake-dns",
+                "address": "fakeip"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": "any",
+                "server": "direct-dns"
+            }
+        ],
+        "fakeip": {
+            "enabled": true,
+            "inet4_range": "198.18.0.0/15"
+        },
+        "strategy": "prefer_ipv4"
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "interface_name": "sing-box",
+            "inet4_address": "172.19.0.1/30",
+            "auto_route": true,
+            "strict_route": true
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "selector",
+            "tag": "Internet",
+            "outbounds": [
+                "Best Latency",
+                "Viper vmess",
+                "DirectVPN-Trojan",
+                "ShadowSocks-Server",
+                "Hysteria2-Example"
+            ]
+        },
+        {
+            "type": "urltest",
+            "tag": "Best Latency",
+            "outbounds": [
+                "Viper vmess",
+                "DirectVPN-Trojan",
+                "ShadowSocks-Server",
+                "Hysteria2-Example"
+            ],
+            "url": "http://www.gstatic.com/generate_204"
+        },
+        {
+            "type": "hysteria2",
+            "tag": "Hysteria2-Example",
+            "server": "example.com",
+            "server_port": 443,
+            "password": "user",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ShadowSocks-Server",
+            "server": "1.2.3.4",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "faBAoHP9WRrw0S6f"
+        },
+        {
+            "type": "trojan",
+            "tag": "DirectVPN-Trojan",
+            "server": "1.2.3.4",
+            "server_port": 443,
+            "password": "telegram-id-directvpn"
+        },
+        {
+            "type": "vmess",
+            "tag": "Viper vmess",
+            "server": "104.21.61.202",
+            "server_port": 8080,
+            "uuid": "14b60b60-01b6-4434-8b60-01b60b6001b6",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/viper/",
+                "headers": {
+                    "Host": "v2ray.viper.tech"
+                }
+            }
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "protocol": "dns",
+                "outbound": "direct-dns"
+            },
+            {
+                "domain_suffix": [
+                    ".ir",
+                    ".xn--mgba3a4fra"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "direct"
+            }
+        ],
+        "auto_detect_interface": true
+    }
+}
