@@ -68,7 +68,9 @@
                 ">>@free4allVPN::IT",
                 ">>@free4allVPN::PE",
                 ">>@free4allVPN::KZ (1)",
+                ">>@ShadowsocksM::XX (10)",
                 ">>@ShadowsocksM::XX (17)",
+                ">>@v2rayngvpn::XX (13)",
                 ">>@free4allVPN::CL",
                 ">>@DailyV2RY::XX (51)",
                 ">>@v2nodes::AU",
@@ -77,9 +79,11 @@
                 ">>@OutlineVpnOfficial::GB",
                 ">>@OutlineVpnOfficial::PR",
                 ">>@free4allVPN::CY",
+                ">>@FreakConfig::XX (13)",
                 ">>@OutlineVpnOfficial::GB (1)",
                 ">>@OutlineVpnOfficial::JP",
                 ">>@shadowproxy66::XX (5)",
+                ">>@configV2rayNG::US (8)",
                 ">>@configV2rayNG::XX (33)",
                 ">>@oneclickvpnkeys::NL (3)"
             ]
@@ -106,7 +110,9 @@
                 ">>@free4allVPN::IT",
                 ">>@free4allVPN::PE",
                 ">>@free4allVPN::KZ (1)",
+                ">>@ShadowsocksM::XX (10)",
                 ">>@ShadowsocksM::XX (17)",
+                ">>@v2rayngvpn::XX (13)",
                 ">>@free4allVPN::CL",
                 ">>@DailyV2RY::XX (51)",
                 ">>@v2nodes::AU",
@@ -115,9 +121,11 @@
                 ">>@OutlineVpnOfficial::GB",
                 ">>@OutlineVpnOfficial::PR",
                 ">>@free4allVPN::CY",
+                ">>@FreakConfig::XX (13)",
                 ">>@OutlineVpnOfficial::GB (1)",
                 ">>@OutlineVpnOfficial::JP",
                 ">>@shadowproxy66::XX (5)",
+                ">>@configV2rayNG::US (8)",
                 ">>@configV2rayNG::XX (33)",
                 ">>@oneclickvpnkeys::NL (3)"
             ],
@@ -140,6 +148,26 @@
             "tls": {
                 "enabled": true,
                 "insecure": true
+            }
+        },
+        {
+            "type": "vless",
+            "tag": ">>@configV2rayNG::US (8)",
+            "server": "141.98.168.41",
+            "server_port": 443,
+            "uuid": "f31f5fe0-0a42-436a-be94-437330801388",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI"
+                },
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -168,6 +196,17 @@
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
+            "type": "vless",
+            "tag": ">>@FreakConfig::XX (13)",
+            "server": "185.138.164.11",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            }
         },
         {
             "type": "shadowsocks",
@@ -234,12 +273,34 @@
             "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
+            "type": "vless",
+            "tag": ">>@v2rayngvpn::XX (13)",
+            "server": "86.104.74.177",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            }
+        },
+        {
             "type": "shadowsocks",
             "tag": ">>@ShadowsocksM::XX (17)",
             "server": "45.87.175.197",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
+        },
+        {
+            "type": "vless",
+            "tag": ">>@ShadowsocksM::XX (10)",
+            "server": "94.131.14.48",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            }
         },
         {
             "type": "shadowsocks",
